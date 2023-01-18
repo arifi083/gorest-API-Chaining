@@ -1,0 +1,19 @@
+https://gorest.co.in/public/v2/users
+
+url: https://gorest.co.in/
+
+POST    /public/v2/users   Create new user
+GET     /public/v2/users/1  GET USER DETAILS
+PUT / PATCH    /public/v2/users/1   Update user details
+DELETE        /public/v2/users/1   Delete usee
+
+
+token:   9dc88dac4d818ab1b515bb6f3f6cd28c5ee0e0dffa16546c41918d4b6db4bba5
+
+Request body
+{
+  "name":"arif",
+   "gender":"male",
+   "email":"arif@gmail.com",
+   "status":"inactive"
+}
